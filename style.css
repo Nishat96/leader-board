@@ -1,8 +1,10 @@
+
 body{
     font-family: 'Poppins', sans-serif !important ;
     background-color: #E5E5E5 !important ;
-
 }
+
+
 .navbar{
     height: 94px;
     
@@ -27,6 +29,11 @@ main{
     height: 679px;
     background-color: white;
 }
+@media (max-width: 600px){
+.section1{
+    flex-direction: column;
+}
+}
 .section1 h4{
     color: #08661dec;
     font-weight: 700 ;
@@ -43,13 +50,25 @@ main{
     position: relative;
    
 }
-.section1-details p{
- left : 10px;
+.section1-details1 p{
+ position: relative;
+ right: 50px;
+ top: 15px;
+ font-weight: 600 ;
+ font-size: 15px;
     
 }
+.section1-details2 p{
+    position: relative;
+    right: 43px;
+    top: 15px;
+    font-weight: 600 ;
+    font-size: 15px;
+       
+   }
 .section1-div2{
     padding-top: 10px;
-    padding-left: 5px;
+    padding-left: 8px;
    
 }
 .first-div{
@@ -71,7 +90,7 @@ hr{
     color: #08661dec;
     font-weight: 700 ;
     padding-top: 25px;
-    padding-left: 25px;
+    padding-left: 30px;
     margin-bottom: 20px;
 }
 .section2-img{
@@ -88,16 +107,16 @@ hr{
 }
 .section2-details p{
     position: relative;
-    right: 15px;
-    font-size: 12px;
+    right: 25px;
+    font-size: 15px;
     display: inline;
     font-weight: 700 !important ;  
 }
 .section2-details h6{
     position: relative;
-    right: 15px;
+    right: 25px;
     margin-top: 10px;
-    font-size: 10px;
+    font-size: 12px;
 
 
 }
@@ -108,4 +127,7 @@ hr{
 .second-div img{
     width: 177px;
     height: 117px;
+  }
+  .section2-div{
+      margin-left: 30px;
   }
