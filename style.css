@@ -1,0 +1,111 @@
+body{
+    font-family: 'Poppins', sans-serif !important ;
+    background-color: #E5E5E5 !important ;
+
+}
+.navbar{
+    height: 94px;
+    
+}
+.nav-padding{
+    padding: 30px;
+}
+.idea{
+    padding: 0 20px;
+    padding-top: 10px;
+      
+}
+
+.item{
+    
+    padding: 0 20px;
+    padding-top: 10px;
+ 
+}
+main{
+    width: 870px;
+    height: 679px;
+    background-color: white;
+}
+.section1 h4{
+    color: #08661dec;
+    font-weight: 700 ;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.section1-photos{
+    width: 51px;
+    height: 51px;
+}
+.section1-div1{
+    padding-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+   
+}
+.section1-details p{
+ left : 10px;
+    
+}
+.section1-div2{
+    padding-top: 10px;
+    padding-left: 5px;
+   
+}
+.first-div{
+    margin-bottom: 20px;
+}
+.first-div img{
+  width: 177px;
+  height: 117px;
+}
+.section1{
+    margin-bottom: 50px;
+}
+hr{
+    
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.section2 h4{
+    color: #08661dec;
+    font-weight: 700 ;
+    padding-top: 25px;
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+.section2-img{
+    position: relative;
+    right: 50px;
+}
+.section2 .row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.section2 .section2-details{
+    width: 160px;
+    height: 100px;
+}
+.section2-details p{
+    position: relative;
+    right: 15px;
+    font-size: 12px;
+    display: inline;
+    font-weight: 700 !important ;  
+}
+.section2-details h6{
+    position: relative;
+    right: 15px;
+    margin-top: 10px;
+    font-size: 10px;
+
+
+}
+.green-hightlight{
+    color: #08661dec;
+    font-weight: 600 !important;
+}
+.second-div img{
+    width: 177px;
+    height: 117px;
+  }
