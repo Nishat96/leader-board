@@ -3,15 +3,6 @@ body{
     background-color: #E5E5E5 !important ;
 }
 
-
-
-.navbar{
-    height: 94px;
-    
-}
-.nav-padding{
-    padding: 30px;
-}
 .idea{
     padding: 0 20px;
     padding-top: 10px;
@@ -35,13 +26,10 @@ body{
 }
 .last-main{ 
     width: 920px;
-    height: 300px;
+    height: 400px;
     background-color: white;
-    margin-bottom: 20px;
+   
 }
-
-
-
 
 .section1 h4{
     color: #08661dec;
@@ -84,6 +72,12 @@ body{
 @media (min-width: 600px){
     .section2-div{
       padding-left: 50px ;
+      margin-bottom: 25px;
+    }
+}
+@media (max-width: 600px){
+    .section2-div{
+      padding-left: 100px ;
     }
 }
 
@@ -108,7 +102,7 @@ hr{
 .section2 h4{
     color: #08661dec;
     font-weight: 700 ;
-    padding-top: 25px;
+    padding-top: 10px;
     padding-left: 30px;
     margin-bottom: 20px;
 }
@@ -155,12 +149,13 @@ hr{
     padding-left: 25px;
 }
 .card-deck{
-    margin-top: 30px;
+    margin-top: px;    
 }
 
 
 .card{
-    height: 260px;
+    height: 280px;
+    box-shadow: 5px 5px 10px gray;
     
 }
 .card-deck .card{
@@ -190,11 +185,6 @@ hr{
     color: #ED6B4F;
     margin-top: 15px;
 }
-.card-footer .star{
-    width:20px;
-}
-
-
 .rating-star span{
     color: #AEAEAE;
     width: 15px;
